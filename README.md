@@ -9,6 +9,7 @@
 ## 🔗 강의 URL
 https://www.youtube.com/watch?v=7t6tQ4KV37g&t=4325s
 
+참고블로그 : https://jojoldu.tistory.com/266
 
 ## 📌 스터디 내용
 ### 1. Get 방식 CURL 학습
