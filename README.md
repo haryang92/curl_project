@@ -3,15 +3,21 @@
 
 
 ## 🕰️ 스터디 기간
-• 23.03.08일 - 
+• 23.03.08일 - 23.03.10일
 
 
 ## 🔗 강의 URL
 https://www.youtube.com/watch?v=7t6tQ4KV37g&t=4325s
 
-참고블로그 : https://jojoldu.tistory.com/266
+참고블로그 : 
+https://jojoldu.tistory.com/266
+https://inpa.tistory.com/entry/LINUX-%F0%9F%93%9A-CURL-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%82%AC%EC%9A%A9%EB%B2%95-%EB%8B%A4%EC%96%91%ED%95%9C-%EC%98%88%EC%A0%9C%EB%A1%9C-%EC%A0%95%EB%A6%AC
 
 ## 📌 스터디 내용
+curl(client url) 명령어는 프로토콜들을 이용해 URL 로 데이터를 전송하여 서버에 데이터를 보내거나 가져올때 사용하기 위한 명령줄 도구 및 라이브러리이다.
+
+쉽게말해 예를들어 자바스크립트 환경에서 REST API(http)를 테스트하고싶다면 보통 ajax, fetch 를 이용해 요청을 보내는 것과 같이, SHELL(커맨드라인 환경)에서 REST API(http) 테스트 하고 싶으면 curl 명령어를 이용하면 된다 라고 이해하면 된다.
+
 ### 1. Get 방식 CURL 학습
 
 ##### Get방식에서 파라미터 없는 경우
