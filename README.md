@@ -14,9 +14,19 @@ https://jojoldu.tistory.com/266
 https://inpa.tistory.com/entry/LINUX-%F0%9F%93%9A-CURL-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%82%AC%EC%9A%A9%EB%B2%95-%EB%8B%A4%EC%96%91%ED%95%9C-%EC%98%88%EC%A0%9C%EB%A1%9C-%EC%A0%95%EB%A6%AC
 
 ## 📌 스터디 내용
+### curl(client url) 명령어
 curl(client url) 명령어는 프로토콜들을 이용해 URL 로 데이터를 전송하여 서버에 데이터를 보내거나 가져올때 사용하기 위한 명령줄 도구 및 라이브러리이다.
 
 쉽게말해 예를들어 자바스크립트 환경에서 REST API(http)를 테스트하고싶다면 보통 ajax, fetch 를 이용해 요청을 보내는 것과 같이, SHELL(커맨드라인 환경)에서 REST API(http) 테스트 하고 싶으면 curl 명령어를 이용하면 된다 라고 이해하면 된다.
+
+### Curl 명령어 사용법
+특정 URL을 대상으로 동작하며 URL 앞에는 curl의 옵션을 사용하면 된다.
+
+curl 명령의 옵션은 하이픈 하나로 시작하는 short 형식과 하이픈 두개로 시작하는 long 형식을 모두 지원한다.
+
+![image](https://user-images.githubusercontent.com/73573088/224534826-a1b5e484-2629-4e27-8a51-02161ff105cf.png)
+![image](https://user-images.githubusercontent.com/73573088/224534839-1ed65541-2739-4daf-afc2-88f0f371d6e7.png)
+
 
 ### 1. Get 방식 CURL 학습
 
