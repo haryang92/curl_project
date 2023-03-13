@@ -27,6 +27,7 @@ curl 명령의 옵션은 하이픈 하나로 시작하는 short 형식과 하이
 ![image](https://user-images.githubusercontent.com/73573088/224534826-a1b5e484-2629-4e27-8a51-02161ff105cf.png)
 ![image](https://user-images.githubusercontent.com/73573088/224534839-1ed65541-2739-4daf-afc2-88f0f371d6e7.png)
 
+***
 
 ### 1. Get 방식 CURL 학습
 
