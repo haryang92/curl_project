@@ -27,6 +27,48 @@ curl 명령의 옵션은 하이픈 하나로 시작하는 short 형식과 하이
 ![image](https://user-images.githubusercontent.com/73573088/224534826-a1b5e484-2629-4e27-8a51-02161ff105cf.png)
 ![image](https://user-images.githubusercontent.com/73573088/224534839-1ed65541-2739-4daf-afc2-88f0f371d6e7.png)
 
+### Post 요청 
+- -d 옵션으로 body 파라미터를 앞에 쓰고, 그 뒤에 POST를 처리하는 주소를 넣는다.
+- 파라미터는 무조건 먼저 인코딩 된 상태여야 한다.
+- POST의 기본 Content-Type 은 application/x-www-form-urlencoded 이다. 
+
+```
+# url 형식 데이터
+
+$ curl -d "key1=value1&key2=value2" \ # -d 옵션으로 body 데이터를 기재
+-H "Content-Type: application/x-www-form-urlencoded" \ # -H 옵션으로 전송할 헤더 지정 (디폴트 : application/x-www-form-urlencoded)
+-X POST http://localhost:8000/data # -X 옵션으로 POST 메소드 지정하고 요청할 url명시
+```
+
+```
+# JSON 형식 데이터
+
+$ curl -d '{"key1":"value1", "key2":"value2"}' \
+-H "Content-Type: application/json" \
+-X POST http://localhost:8000/data
+```
+
+```
+# 파라미터값을 파일로 지정해서 보내기
+
+curl -d "@data.txt" -X POST http://localhost:3000/data
+curl -d "@data.json" -X POST http://localhost:3000/data
+```
+
+### PUT 요청 
+```
+$ curl -X PUT -d 'name=mkyong&email=abc@gmail.com' http://localhost:8080/user/100
+$ curl -X PUT -H "Content-Type: application/json" -d '{"name":"mkyong","email":"abc@gmail.com"}' http://localhost:8080/user/100
+
+# 파일명으로 PUT
+$ curl -T filename.txt http://www.example.com/dir/
+```
+
+### DELETE 요청
+```
+$ curl -X DELETE http://localhost:8080/user/100
+```
+
 ***
 
 ### 1. Get 방식 CURL 학습
