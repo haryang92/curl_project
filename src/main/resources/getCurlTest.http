@@ -17,3 +17,5 @@
 
 # GET방식에서 key와 value가 정해져있지만, 받아야할 파라미터가 많을 경우 DTO 객체를 사용한 방식
 #GET localhost:7080/get-api/request3?name=haryang&email=a@gmail.com&organization=thinkdev
+
+ifconfig.me
